@@ -1,0 +1,18 @@
+class Details{
+	String getName(String str){
+		return "Your Name is : "+str;
+	}
+
+	int getAge(int age){
+		return age;
+	}
+}
+
+class oops{
+public static void main(String[] args){
+	Details obj = new Details();
+	System.out.println(obj.getName("Satya"));
+	System.out.println("Your age is : "+obj.getAge(21));
+}
+
+}
